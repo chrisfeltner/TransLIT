@@ -26,7 +26,7 @@ public class Message{
 	
 	public void setMessage(String myMessageText)
 	{
-		messageText = myMessageText
+		messageText = myMessageText;
 	}
 	
 	public void setSentUser(User mySentUser)
