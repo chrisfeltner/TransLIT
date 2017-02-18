@@ -6,11 +6,11 @@
 
 public class Message{
 	private String messageText;
-	private User sentUser;
+	private User sender;
 	
-	public Message(String myMessageText, User mySentUser)
+	public Message(String myMessageText, User mySender)
 	{
-		sentUser = mySentUser;
+		sentUser = mySender;
 		messageText = myMessageText;
 	}
 	
@@ -19,9 +19,9 @@ public class Message{
 		return messageText;
 	}
 	
-	public User getSentUser()
+	public User getSender()
 	{
-		return sentUser;
+		return sender;
 	}
 	
 	public void setMessage(String myMessageText)
